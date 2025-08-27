@@ -18,7 +18,7 @@ from PySide6.QtWidgets import (
     QSlider
 )
 
-BACKEND_URL = "http://127.0.0.1:5000"
+BACKEND_URL = "https://ai-interview-416w.onrender.com"
 
 HAVE_SPEECH_RECOGNITION = True
 try:

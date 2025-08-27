@@ -25,13 +25,13 @@ def check_backend():
     """Check if backend is running"""
     try:
         import requests
-        response = requests.get("http://127.0.0.1:5000/", timeout=3)
+        response = requests.get("https://ai-interview-416w.onrender.com/", timeout=3)
         print("✅ Backend server is running")
         return True
     except:
         print("❌ Backend server is not running")
-        print("   Please start the backend first:")
-        print("   cd backend && python api_server.py")
+        print("   Please ensure the Render backend is reachable:")
+        print("   https://ai-interview-416w.onrender.com/")
         return False
 
 def main():

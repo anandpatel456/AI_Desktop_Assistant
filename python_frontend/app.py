@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 app.secret_key = "your_secret_key"  # Change this to a secure value
 
-BACKEND_URL = os.getenv("BACKEND_URL", "https://ai-assis-54jg.onrender.com")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://ai-interview-416w.onrender.com")
 
 @app.route('/')
 def index():
